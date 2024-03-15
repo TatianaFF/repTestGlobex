@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "ProximaBold";
+  src: local("ProximaNovaBold"),
+  url("./assets/fonts/ProximaNovaBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaReg";
+  src: local("ProximaNovaBold"),
+  url("./assets/fonts/ProximaNovaRegular.ttf") format("truetype");
+}
+
+.App {
+  /*text-align: center;*/
+}
+
+.Card {
+  height: 314px;
+  box-shadow: 0 0 8px 5px #F7F7F7;
+  border: 1px solid #F7F7F7;
+  border-radius: 16px;
+}
+
+.searchbar {
+  border-radius: 50px;
+  margin-bottom: 32px;
+  border-color: #d4defe;
+  height: 48px;
+}
+
+.columnWrapper {
+  width: 1121px;
+  margin-top: 64px;
+  /*background-color: green;*/
+}
+
+.NameUser {
+  color: #262C40;
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: ProximaBold
+}
+
+.ContactUser {
+  color: #8189A3;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: ProximaReg;
+}
+
+.IconIntoCard {
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+.LabelInfoUser {
+  color: #262C40;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: ProximaReg
+}
+
+.InfoUser {
+  color: #8189A3;
+}
